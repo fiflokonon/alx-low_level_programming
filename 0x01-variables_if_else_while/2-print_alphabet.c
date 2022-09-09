@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -7,13 +7,14 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char alpha;
+	char low;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);	
-	putchar('\n');
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+		putchar('\n');
 
 	return (0);
 }
