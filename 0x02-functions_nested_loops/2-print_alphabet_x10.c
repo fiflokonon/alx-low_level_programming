@@ -5,8 +5,8 @@
 
 /**
  * main - Check Description
- * Description: Uses putchar to print
- * alphabet in lowercase
+ * Description: Uses putchar to print alphabet
+ *
  * Return: Nothing
  */
 void print_alphabet_x10(void)
