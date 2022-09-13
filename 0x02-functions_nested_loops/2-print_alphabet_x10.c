@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * main - Check Description
+ * print_alphabet_x10 - Check Description
  * Description: Uses putchar to print alphabet
  *
  * Return: Nothing
