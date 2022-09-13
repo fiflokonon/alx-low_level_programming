@@ -18,6 +18,6 @@ void print_alphabet_x10(void)
 	{
 		for (alpha = 'a'; alpha <= 'z'; alpha++)
 			putchar(alpha);
-		putchar('\n');	
+		putchar('\n');
 	}
 }
