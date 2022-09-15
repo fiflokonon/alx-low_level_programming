@@ -3,9 +3,9 @@
 /**
  * mul - Check Description
  * Description: Return integers multiplication
- * @a: An input
- * @b: An input
- * Return: Result of the multiplication
+ * @a: An input integer
+ * @b: An input integer
+ * Return: Always 0 
  */
 int mult(int a, int b)
 {
