@@ -2,13 +2,13 @@
 
 /**
  * _isupper - Check Description
- * Description: check for uppercase
- * @c: An input 
- * Return: 1 if c is uppercase, 0 otherwise
+ * @c: An input character
+ * Description: function uses _putchar function to print
+ * Return: 1 if is uppercase or 0 if is lowercase
  */
-int _isupper(int c)
+int _islower(int c)
 {
-	if (c <= 65 && c >= 90)
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
