@@ -17,7 +17,6 @@ void print_number(int n)
 	else
 		print_integer(n);
 }
-
 /**
  * print_integer - A function to priting n
  * @m: an input unsigned integer
