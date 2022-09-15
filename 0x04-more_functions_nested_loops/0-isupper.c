@@ -2,6 +2,7 @@
 
 /**
  * _isupper - Check Description
+ * Description: check for uppercase
  * @c: An input 
  * Return: 1 if c is uppercase, 0 otherwise
  */
