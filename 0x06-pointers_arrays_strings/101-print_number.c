@@ -18,7 +18,7 @@ int base10(int n)
 }
 
 /**
- * print_number - prints integers enters as parameters using putchar
+ * print_number - prints integers
  * @n: integer to print
  * Return: void
  */
