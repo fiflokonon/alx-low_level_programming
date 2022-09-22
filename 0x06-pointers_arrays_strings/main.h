@@ -9,3 +9,5 @@ int check_seperators(char c);
 char *leet(char *);
 char *rot13(char *);
 void print_number(int n);
+int base10(int n);
+int _putchar(char c);
