@@ -3,6 +3,8 @@
 
 /**
  * _strcat - check Description
+ * @dest: an input string
+ * @src: an input string
  * Description:  That concat two string
  * Return: Char
  */
