@@ -4,7 +4,7 @@
 /**
  * _strcat - check Description
  * Description:  That concat two string
- * Return: Nothing
+ * Return: Char
  */
 char *_strcat(char *dest, char *src)
 {
