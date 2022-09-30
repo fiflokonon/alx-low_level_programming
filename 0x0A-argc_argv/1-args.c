@@ -1,18 +1,15 @@
-#include "main.h"
+#include "main"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - check entry point
- * @argc: An integer input
- * @argv: An array input
- * Description: Print number
+ * main - A program that prints the number of arguements you passed into it
+ * @argc: An argument counter
+ * @argv: An argument values
  * Return: Always 0 (Success)
  */
-
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc > 0)
-		print("%d\n", argc);
+	if (argv[0])
+		printf("%d\n", argc - 1);
 	return (0);
 }
