@@ -7,9 +7,9 @@
  * @argv: The arguments' values
  * Return: Always 0 (Success)
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int num1, num2, result;
+	int m1, m2, res;
 
 	if (argc != 3)
 	{
@@ -18,9 +18,9 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		num1 = atoi(argv[1]);
-		num2 = atoi(argv[2]);
-		result = num1 * num2;
+		m1 = atoi(argv[1]);
+		m2 = atoi(argv[2]);
+		res = num1 * num2;
 		printf("%d\n", result);
 		return (0);
 	}
