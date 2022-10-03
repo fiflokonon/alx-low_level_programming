@@ -12,5 +12,5 @@
  */
 char *_strdup(char *str)
 {
-	return ((strdup(str));
+	return (strdup(str));
 }
