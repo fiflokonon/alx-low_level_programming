@@ -9,5 +9,5 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	calloc(nmemb, size);
+	return (calloc(nmemb, size));
 }
